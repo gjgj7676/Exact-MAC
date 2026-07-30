@@ -1,0 +1,387 @@
+$date
+	Wed Jul 29 20:54:04 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_register_16 $end
+$var wire 16 ! Q [15:0] $end
+$var reg 16 " D [15:0] $end
+$var reg 1 # clk $end
+$var reg 1 $ rst $end
+$scope module DUT $end
+$var wire 16 % D [15:0] $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var wire 16 & Q [15:0] $end
+$scope begin REG_BITS[0] $end
+$var parameter 2 ' i $end
+$scope module DFF $end
+$var wire 1 ( D $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var reg 1 ) Q $end
+$upscope $end
+$upscope $end
+$scope begin REG_BITS[1] $end
+$var parameter 2 * i $end
+$scope module DFF $end
+$var wire 1 + D $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var reg 1 , Q $end
+$upscope $end
+$upscope $end
+$scope begin REG_BITS[2] $end
+$var parameter 3 - i $end
+$scope module DFF $end
+$var wire 1 . D $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var reg 1 / Q $end
+$upscope $end
+$upscope $end
+$scope begin REG_BITS[3] $end
+$var parameter 3 0 i $end
+$scope module DFF $end
+$var wire 1 1 D $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var reg 1 2 Q $end
+$upscope $end
+$upscope $end
+$scope begin REG_BITS[4] $end
+$var parameter 4 3 i $end
+$scope module DFF $end
+$var wire 1 4 D $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var reg 1 5 Q $end
+$upscope $end
+$upscope $end
+$scope begin REG_BITS[5] $end
+$var parameter 4 6 i $end
+$scope module DFF $end
+$var wire 1 7 D $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var reg 1 8 Q $end
+$upscope $end
+$upscope $end
+$scope begin REG_BITS[6] $end
+$var parameter 4 9 i $end
+$scope module DFF $end
+$var wire 1 : D $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var reg 1 ; Q $end
+$upscope $end
+$upscope $end
+$scope begin REG_BITS[7] $end
+$var parameter 4 < i $end
+$scope module DFF $end
+$var wire 1 = D $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var reg 1 > Q $end
+$upscope $end
+$upscope $end
+$scope begin REG_BITS[8] $end
+$var parameter 5 ? i $end
+$scope module DFF $end
+$var wire 1 @ D $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var reg 1 A Q $end
+$upscope $end
+$upscope $end
+$scope begin REG_BITS[9] $end
+$var parameter 5 B i $end
+$scope module DFF $end
+$var wire 1 C D $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var reg 1 D Q $end
+$upscope $end
+$upscope $end
+$scope begin REG_BITS[10] $end
+$var parameter 5 E i $end
+$scope module DFF $end
+$var wire 1 F D $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var reg 1 G Q $end
+$upscope $end
+$upscope $end
+$scope begin REG_BITS[11] $end
+$var parameter 5 H i $end
+$scope module DFF $end
+$var wire 1 I D $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var reg 1 J Q $end
+$upscope $end
+$upscope $end
+$scope begin REG_BITS[12] $end
+$var parameter 5 K i $end
+$scope module DFF $end
+$var wire 1 L D $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var reg 1 M Q $end
+$upscope $end
+$upscope $end
+$scope begin REG_BITS[13] $end
+$var parameter 5 N i $end
+$scope module DFF $end
+$var wire 1 O D $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var reg 1 P Q $end
+$upscope $end
+$upscope $end
+$scope begin REG_BITS[14] $end
+$var parameter 5 Q i $end
+$scope module DFF $end
+$var wire 1 R D $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var reg 1 S Q $end
+$upscope $end
+$upscope $end
+$scope begin REG_BITS[15] $end
+$var parameter 5 T i $end
+$scope module DFF $end
+$var wire 1 U D $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var reg 1 V Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1111 T
+b1110 Q
+b1101 N
+b1100 K
+b1011 H
+b1010 E
+b1001 B
+b1000 ?
+b111 <
+b110 9
+b101 6
+b100 3
+b11 0
+b10 -
+b1 *
+b0 '
+$end
+#0
+$dumpvars
+0V
+0U
+0S
+0R
+0P
+0O
+0M
+0L
+0J
+0I
+0G
+0F
+0D
+0C
+0A
+0@
+0>
+0=
+0;
+0:
+08
+07
+05
+04
+02
+01
+0/
+0.
+0,
+0+
+0)
+0(
+b0 &
+b0 %
+1$
+0#
+b0 "
+b0 !
+$end
+#5000
+1#
+#10000
+1.
+14
+17
+1C
+1L
+0#
+b1001000110100 "
+b1001000110100 %
+0$
+#15000
+b1001000110100 !
+b1001000110100 &
+1/
+15
+18
+1D
+1M
+1#
+#20000
+1(
+11
+04
+07
+1:
+1=
+1@
+1I
+0L
+1O
+1U
+0#
+b1010101111001101 "
+b1010101111001101 %
+#25000
+b1010101111001101 !
+b1010101111001101 &
+1V
+1P
+0M
+1J
+1A
+1>
+1;
+08
+05
+12
+1)
+1#
+#30000
+1+
+14
+17
+1F
+1L
+1R
+0#
+b1111111111111111 "
+b1111111111111111 %
+#35000
+b1111111111111111 !
+b1111111111111111 &
+1,
+15
+18
+1G
+1M
+1S
+1#
+#40000
+0(
+0+
+0.
+01
+04
+07
+0:
+0=
+0@
+0C
+0F
+0I
+0L
+0O
+0R
+0U
+0#
+b0 "
+b0 %
+#45000
+b0 !
+b0 &
+0V
+0S
+0P
+0M
+0J
+0G
+0D
+0A
+0>
+0;
+08
+05
+02
+0/
+0,
+0)
+1#
+#50000
+1+
+11
+17
+1=
+1@
+1F
+1L
+1R
+0#
+b101010110101010 "
+b101010110101010 %
+#55000
+b101010110101010 !
+b101010110101010 &
+1,
+12
+18
+1>
+1A
+1G
+1M
+1S
+1#
+#60000
+1(
+0+
+1.
+01
+0L
+1O
+0R
+1U
+0#
+b1010010110100101 "
+b1010010110100101 %
+#65000
+b1010010110100101 !
+b1010010110100101 &
+1V
+0S
+1P
+0M
+02
+1/
+0,
+1)
+1#
+#70000
+0#
