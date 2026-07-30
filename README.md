@@ -99,13 +99,20 @@ EXACT_MAC/
 
 ### 8×8 Braun Multiplier
 
-- Generates a 16-bit product from two 8-bit unsigned inputs.
-- Partial products are generated using 2-input AND gates.
-- Reduction is performed using Half Adders and Full Adders.
+The 8×8 Braun Multiplier is an array multiplier that computes the product of two unsigned 8-bit operands. It consists of three stages:
+
+1. **Partial Product Generation** – Each partial product is generated using a 2-input AND gate:
 
 ```
 pp[i][j] = A[i] & B[j]
 ```
+2. **Partial Product Reduction** – The partial products are reduced using a network of Half Adders and Full Adders arranged in the Braun array architecture.
+3. **Product Generation** – The reduced sums and carries produce the final 16-bit product.
+
+For architectural clarity, the multiplier hierarchy is expanded in the accompanying block diagram, illustrating the partial product generator, Half Adders, and Full Adders that form the complete 8×8 Braun Multiplier.
+
+![8X8 Braun Multiplier](images/braun_multiplier_8X8.jpg)
+
 
 ---
 
