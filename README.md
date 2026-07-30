@@ -241,5 +241,5 @@ Example accumulator progression:
 
 Electronics & Communication Engineering
 
-- LinkedIn: [https://www.linkedin.com/in/your-profile](https://www.linkedin.com/in/yash-kumar-678b8930b/)
+- LinkedIn: https://www.linkedin.com/in/yash-kumar-678b8930b/
 - GitHub: https://github.com/gjgj7676
