@@ -8,13 +8,11 @@ The design was simulated using **Icarus Verilog** and functionally verified with
 
 ## Architecture
 
-![Exact MAC Architecture](images/Exact_MAC (2).jpg)
-
----
+![Exact MAC Architecture](images/exact_mac_architecture.jpg)
 
 ## Simulation Waveform
 
-![GTKWave Simulation](images/Exact MAC waveform.png)
+![GTKWave Simulation](images/exact_mac_waveform.png)
 
 ## Architecture
 
