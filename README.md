@@ -16,9 +16,7 @@ The Exact MAC integrates three major hardware modules:
 
 The accumulator stores the previous result and feeds it back to the adder, implementing the Multiply-Accumulate operation:
 
-\[
-ACC_{new} = ACC_{old} + (A \times B)
-\]
+ACC(new) = ACC(old) + (A × B)
 
 ---
 
