@@ -8,6 +8,16 @@ The design was simulated using **Icarus Verilog** and functionally verified with
 
 ## Architecture
 
+![Exact MAC Architecture](images/Exact_MAC (2).jpg)
+
+---
+
+## Simulation Waveform
+
+![GTKWave Simulation](images/Exact MAC waveform.png)
+
+## Architecture
+
 The Exact MAC integrates three major hardware modules:
 
 - **8×8 Braun Multiplier**
@@ -219,7 +229,7 @@ gtkwave waves/mac_exact.vcd
 - Icarus Verilog
 - GTKWave
 - draw.io
-- Git & GitHub
+  
 
 ---
 
