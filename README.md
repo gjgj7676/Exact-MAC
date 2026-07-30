@@ -111,7 +111,7 @@ pp[i][j] = A[i] & B[j]
 
 For architectural clarity, the multiplier hierarchy is expanded in the accompanying block diagram, illustrating the partial product generator, Half Adders, and Full Adders that form the complete 8×8 Braun Multiplier.
 
-![8X8 Braun Multiplier](images/braun_multiplier_8X8.jpg)
+![8X8 Braun Multiplier](images/braun_multiplier_8x8.jpg)
 
 
 ---
@@ -128,6 +128,8 @@ Produces:
 - 16-bit Sum
 - Carry-Out (Overflow)
 
+![16-bit Ripple Carry Adder](images/ripple_carry_adder_16.jpg)
+
 ---
 
 ### 16-bit Register (Accumulator)
@@ -135,6 +137,8 @@ Produces:
 - Built using sixteen positive-edge-triggered D Flip-Flops.
 - Stores the accumulated result.
 - Reset initializes the accumulator to zero.
+
+![16-bit Register](images/register_16.jpg)
 
 ---
 
@@ -179,6 +183,29 @@ Verified Modules:
 | 5 | 15 | 15 | 225 | 323 |
 
 ---
+
+## Development Workflow
+
+The project was developed following the workflow below:
+
+```text
+Architecture Design (draw.io)
+          │
+          ▼
+RTL Implementation (SystemVerilog)
+          │
+          ▼
+Compilation & Simulation (Icarus Verilog)
+          │
+          ▼
+Functional Verification (SystemVerilog Testbenches)
+          │
+          ▼
+Waveform Analysis (GTKWave)
+          │
+          ▼
+Version Control (Git/GitHub)
+```
 
 ## Simulation Flow
 
@@ -233,7 +260,7 @@ gtkwave waves/mac_exact.vcd
 - OSS CAD Suite
 - Icarus Verilog
 - GTKWave
-- draw.io
+- draw.io  (Architecture Diagrams)
   
 
 ---
