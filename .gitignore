@@ -1,0 +1,5 @@
+# Simulation outputs
+sim/*.out
+
+# GTKWave files
+waves/*.vcd
