@@ -28,6 +28,7 @@ ACC_{new} = ACC_{old} + (A \times B)
 Exact MAC
 │
 ├── 8×8 Braun Multiplier
+│   ├── Partial Product Generator
 │   ├── Half Adders
 │   └── Full Adders
 │
@@ -43,29 +44,47 @@ Exact MAC
 ## Repository Structure
 
 ```
-Exact_MAC/
+EXACT_MAC/
+│
+├── images/
+│   ├── 4X4 Braun_multiplier.jpg
+│   ├── 8X8 Braun_Multiplier.jpg
+│   ├── 16_RCA.jpg
+│   ├── 16-bit-register-D_FF.jpg
+│   ├── Exact_MAC.jpg
+│   └── Exact MAC waveform.png
 │
 ├── rtl/
 │   ├── half_adder.sv
 │   ├── full_adder.sv
+│   ├── partial_product_generator.sv
+│   ├── braun_multiplier_4x4.sv
+│   ├── braun_multiplier_8x8.sv
 │   ├── d_flip_flop.sv
 │   ├── register_16.sv
+│   ├── ripple_adder.sv
 │   ├── ripple_adder_16.sv
-│   ├── braun_multiplier_8x8.sv
 │   └── mac_exact.sv
 │
 ├── tb/
+│   ├── tb_half_adder.sv
+│   ├── tb_full_adder.sv
+│   ├── tb_partial_product_generator.sv
+│   ├── tb_braun_multiplier_4x4.sv
+│   ├── tb_braun_multiplier_8x8.sv
 │   ├── tb_d_flip_flop.sv
 │   ├── tb_register_16.sv
+│   ├── tb_ripple_adder.sv
+│   ├── tb_ripple_adder_16.sv
 │   └── tb_mac_exact.sv
 │
 ├── sim/
+│   └── *.out
 │
 ├── waves/
+│   └── *.vcd
 │
-└── docs/
-    ├── Exact_MAC_Architecture.png
-    └── Exact_MAC_Waveform.png
+└── README.md
 ```
 
 ---
@@ -125,13 +144,13 @@ Each module was verified independently before integration.
 
 Verified Modules:
 
-- ✅ Half Adder
-- ✅ Full Adder
-- ✅ D Flip-Flop
-- ✅ 16-bit Register
-- ✅ 16-bit Ripple Carry Adder
-- ✅ 8×8 Braun Multiplier
-- ✅ Exact MAC
+-  Half Adder
+-  Full Adder
+-  D Flip-Flop
+-  16-bit Register
+-  16-bit Ripple Carry Adder
+-  8×8 Braun Multiplier
+-  Exact MAC
 
 ---
 
@@ -223,3 +242,6 @@ Example accumulator progression:
 **Yash Kumar**
 
 Electronics & Communication Engineering
+
+- LinkedIn: [https://www.linkedin.com/in/your-profile](https://www.linkedin.com/in/yash-kumar-678b8930b/)
+- GitHub: https://github.com/gjgj7676
