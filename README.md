@@ -8,7 +8,7 @@ The design was simulated using **Icarus Verilog** and functionally verified with
 
 ## Architecture
 
-
+![Exact MAC Architecture](images/exact_mac_architecture.jpg)
 
 ## Simulation Waveform
 
